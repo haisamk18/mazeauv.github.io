@@ -1,0 +1,225 @@
+.navbar {
+  background-color: black;
+
+
+
+
+
+}
+#auvlogo {
+  width: 80px;
+}
+.navbar-brand {
+  margin-left: 50px;
+  padding-top: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right,black,grey);
+}
+
+li.dropdown-item a {
+  color: white;
+  display: block;
+}
+.dropdown-item:hover {
+  color: black;
+}
+.dropdown-item link a {
+  color: black;
+  margin-left: 40px;
+}
+.dropdown-item link {
+  margin-left: 40px;
+}
+.dropdown-menu {
+  background-color: black;
+}
+
+
+
+li.nav-item a {
+  color: white;
+  display: block;
+  font-weight:180;
+  font-size:17px;
+  margin-left: 20px;
+
+}
+button.navbar-toggler {
+  border: 2px solid red;
+  width: 36px;
+  height: 33px;
+  box-sizing: border-box;
+}
+
+.insideline {
+
+  background-color: red;
+  height: 3px;
+  margin-top: 3.3px;
+
+}
+.insideline.top {
+  width: 24px;
+
+}
+.insideline.middle {
+  width: 15px;
+  position: relative;
+  left: 4px;
+
+}
+.insideline.bottom {
+  width: 24px;
+  margin-top: 3.3px;
+}
+.linecontainer {
+  width: 35px;
+  height: 25px;
+  margin: 0 auto;
+  position: relative;
+  left: -7px;
+}
+.navbar:hover {
+  background-color:#fff;
+
+}
+.nav-link:hover {
+  border-bottom: 2px solid black;
+  overflow-: hidden;
+}
+
+.navbar:hover .nav-link {
+  color: black;
+  font-weight: 600;
+}
+#myvideo {
+
+
+
+
+    height: auto !important;
+
+    width: 100% !important;
+
+
+
+
+}
+#videoholder {
+  margin: 0;
+}
+.tablefirst {
+  width: 85%;
+  margin: 0 auto;
+}
+.tablesecond {
+  width: 85%;
+  margin: 0 auto;
+}
+.w3-modal-content {
+  width: 500px;
+  height: auto;
+}
+.table {
+  width: 85%;
+  margin: 0 auto;
+}
+#last {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0 important!;
+}
+.para {
+  justify-content: center;
+}
+#topheader {
+  padding-top: 15px;
+  color:#A0A0A0;
+  font-size: 4em;
+  text-align: center;
+  font-family: fantasy,copperplate;
+animation: slideleft 1.2s forwards linear;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+@keyframes slideleft {
+
+  0% {
+    transform: translateX(80px);
+    font-size: 20px;
+    opacity: 0;
+
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+    font-size: 80px;
+
+
+  }
+
+
+
+}
+
+.what {
+  background-color: #F64C71;
+  margin-bottom: 0;
+
+}
+.what h1 {
+  text-align: center;
+  font-family: fantasy,copperplate;
+
+}
+caption {
+  font-size: 40px;
+  font-weight: 200;
+  color:#A0A0A0;
+}
+#para {
+  background-image: linear-gradient(to bottom right,black,grey);
+}
+.btntop {
+  display: block;
+  background-color: grey;
+}
+.partcipants {
+  margin-bottom: 30px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+
+  border-top: 40px solid #f00;
+  left: 50%;
+   margin-left: -50px;
+   width: 0;
+   height: 0;
+}
+.trianglecontainer {
+  width: 50px;
+  margin:0 auto;
+  padding: 0 important!;
+
+}
+.regbutton {
+  display: block;
+  box-shadow: 2px 4px black;
+
+}
+.regbutton a {
+  text-decoration: none;
+}
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Mr+Dafoe&family=Oswald:wght@200;700&family=Six+Caps&display=swap');
+</style>
