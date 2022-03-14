@@ -26,7 +26,9 @@
 
 }
 #auvlogo {
-  width: 80px;
+  width: 120px;
+  height: 80px;
+
 }
 .navbar-brand {
   margin-left: 50px;
@@ -62,37 +64,42 @@ li.nav-item a {
   color: white;
   display: block;
   font-weight:180;
-  font-size:17px;
+  font-size:1.35em;
   margin-left: 20px;
 
 }
 button.navbar-toggler {
-  border: 2px solid red;
-  width: 36px;
-  height: 33px;
+  border: 2.5px solid #8B008B;
+  width: 43px;
+  height: 40px;
   box-sizing: border-box;
+  position: relative;
+  right: 15px;
 }
 
 .insideline {
 
-  background-color: red;
-  height: 3px;
-  margin-top: 3.3px;
+  background-color: #8B008B;
+  height: 3.75px;
+  margin-top: 3px;
 
 }
 .insideline.top {
-  width: 24px;
+  width: 28px;
 
 }
 .insideline.middle {
-  width: 15px;
+  width: 20px;
   position: relative;
   left: 4px;
+  margin-top: 5px;
+  height: 4px;
 
 }
 .insideline.bottom {
-  width: 24px;
-  margin-top: 3.3px;
+  width: 28px;
+  margin-top: 6px;
+  height: 4px;
 }
 .linecontainer {
   width: 35px;
