@@ -6,6 +6,17 @@
 
 
 }
+@media screen and (max-width:576px) {
+
+   #auvlog {
+     width: 105px;
+   }
+   button.navbar-toggler {
+     width: 40px;
+     height: 40px;
+   }
+
+}
 #auvlogo {
   width: 80px;
 }
@@ -141,11 +152,18 @@ button.navbar-toggler {
   font-size: 4em;
   text-align: center;
   font-family: fantasy,copperplate;
-animation: slideleft 1.2s forwards linear;
-overflow-x: hidden;
-overflow-y: hidden;
+
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-shadow:5px 5px 3px #36454F;
+  }
+.tom {
+
+  animation: slideleft 1.3s linear forwards;
 
 }
+
 @keyframes slideleft {
 
   0% {
@@ -165,38 +183,89 @@ overflow-y: hidden;
 
 
 }
+p.tom {
+  animation-delay: 2s;
+  opacity: 0;
+  width: 75%;
+  padding-top: 30px;
+padding-bottom: 40px;
+  margin: 0 auto;
+  font-size: 1.3em;
+  color: #EDE4E3;
+}
+#description {
+  color:	#888888;
+  animation: para 1.5s forwards linear;
+  animation-delay: 0.8s;
+
+}
+p.slideleft {
+  animation-delay: 0.9s;
+
+}
+@keyframes para {
+  0% {
+    transform: translateX(80px);
+
+    opacity: 0;
+
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+
+
+
+  }
+
+}
 
 .what {
-  background-color: #DE3163;
+  background-color:#A0A0A0;
   margin-bottom: 0;
 
 }
 .what h1 {
+  font-size: 3em;
   text-align: center;
   font-family: fantasy,copperplate;
+  text-shadow: 4px 4px 4px #36454F;
+  color: black;
 
 }
 caption {
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 300;
   color:#A0A0A0;
+  text-shadow: 3px 3px 5px #818589;
 }
 #para {
   background-image: linear-gradient(to bottom right,black,grey);
 }
 .btntop {
   display: block;
-  background-color: grey;
+  background-color: #A0A0A0;
+  border-top: 1px solid grey;
+  box-shadow:  3px 3px 5px #818589;
 }
+.btntop:hover {
+  background-color: #F8F8F8;
+}
+.regbutton {
+  display: block;
+  background-color: #A0A0A0;
+
+  box-shadow:  3px 3px 5px #818589;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-style: dashed;
+
+}
+
 .partcipants {
   margin-bottom: 30px;
 }
 
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
 
   border-top: 40px solid #f00;
   left: 50%;
@@ -204,20 +273,8 @@ caption {
    width: 0;
    height: 0;
 }
-.trianglecontainer {
-  width: 50px;
-  margin:0 auto;
-  padding: 0 important!;
 
-}
-.regbutton {
-  display: block;
-  box-shadow: 2px 4px black;
 
-}
-.regbutton a {
-  text-decoration: none;
-}
 
 
 <style>
